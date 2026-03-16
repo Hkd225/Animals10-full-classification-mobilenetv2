@@ -52,12 +52,12 @@ MACHINE LEARNING PIPELINE ARCHITECTURE
      - Output Dense (10 classes, Softmax)
 
 ------------------------------------------------------------
-
+```md
 ## DEPLOYMENT ARTIFACTS & SUBMISSION STRUCTURE
 
 The script automatically generates a `submission/` folder and compresses it into a ready-to-deploy `.zip` archive containing:
 
-text
+```text
 submission/
 ├── tflite/
 │   ├── model.tflite                  # Optimized for Android/iOS
