@@ -53,19 +53,19 @@ MACHINE LEARNING PIPELINE ARCHITECTURE
 
 ------------------------------------------------------------
 
-DEPLOYMENT ARTIFACTS & SUBMISSION STRUCTURE
+## DEPLOYMENT ARTIFACTS & SUBMISSION STRUCTURE
 
 The script automatically generates a `submission/` folder and compresses it into a ready-to-deploy `.zip` archive containing:
 
+text
 submission/
-    ├── tflite/ 
-    │   ├── model.tflite (Optimized for Android/iOS)
-    │   └── label.txt
-    ├── klasifikasi-hewan-10.keras (Native Keras format)
-    ├── training_config.json (Hyperparameters and evaluation metadata)
-    ├── README.md
-    └── requirements.txt
-
+├── tflite/
+│   ├── model.tflite                  # Optimized for Android/iOS
+│   └── label.txt
+├── klasifikasi-hewan-10.keras        # Native Keras format
+├── training_config.json              # Hyperparameters and evaluation metadata
+├── README.md
+└── requirements.txt
 ------------------------------------------------------------
 
 INSTALLATION
